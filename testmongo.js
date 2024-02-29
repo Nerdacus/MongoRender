@@ -1,6 +1,6 @@
 const { MongoClient } = require("mongodb");
-const user = process.env.user;
-const password = process.env.password;
+const user = "temp";
+const password = "temp";
 
 // The uri string must be the connection string for the database (obtained on Atlas).
 const uri = `mongodb+srv://${user}:${password}@jwmdb.u5a8uns.mongodb.net/?retryWrites=true&w=majority&appName=jwmdb`;
